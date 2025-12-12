@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2 class="title"></h2
+        >
+    <div class="main">
+        <div class="name">
+            <span></span>
+            <input type="text"
+             id="name-input" 
+             class="name-input"
+             value="anonymous" 
+             maxlength="20"
+            >
+        </div>
+
+        <ul class="message-container" id="message-container">
+            
+
+            <li class="message-feedback">
+                <p class="feedback" id="feedback">
+                    Welcome to Anonymous Chatroom!
+                </p>
+            </li>
+        </ul>
+
+
+        <form class="message-form" id="message-form">
+            <input type="text" name="message" id="message-inputt" class="message-input">
+            <div class="v-divider"></div>
+            <button type="submit" class="send-button">Send <span></span></button>
+        </form>
+    </div>
+
+    <h3 class="clients-total" id="client-total">People Connected: 2</h3>
+    
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
