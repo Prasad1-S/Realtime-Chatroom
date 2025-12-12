@@ -1,7 +1,7 @@
 # Realtime Chat App (Node.js + Socket.io)
 
 A simple realtime chat application built using **Node.js**, **Express**, and **Socket.io**.  
-Users can send messages and see updates instantly without page reloads.
+Users can send messages and see updates instantly without page reloads. Built while exploring the capabilities of Socket.io (which is amazing.)
 
 ---
 
@@ -26,3 +26,4 @@ Open in browser:
 ```bash
 http://localhost:3000
 ```
+
